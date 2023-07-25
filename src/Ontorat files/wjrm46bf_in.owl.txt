@@ -1,0 +1,1811 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+Ontology: <http://purl.obolibrary.org/obo/ontorat_0000001.owl>
+
+Datatype: rdf:PlainLiteral
+Datatype: xsd:string
+Datatype: xsd:nonNegativeInteger
+Datatype: xsd:float
+Datatype: rdfs:Literal
+Datatype: xsd:integer
+
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+Class: <http://purl.obolibrary.org/obo/VO_0000457>
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000087>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#label>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#comment>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000111>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000112>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000114>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000116>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000117>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000118>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000119>
+
+Class: <http://purl.obolibrary.org/obo/VO_0010000>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Parasite Target Antigen",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Antigen protein that is part of Parasite Target"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID NCBI Gene ID"
+
+
+    SubClassOf:
+        <Parasite Protein Parent>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010001>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum Cp12",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Cp12 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010002>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum Cp21",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Cp21 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010003>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum Cp15",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Cp15 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010004>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum CP60",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CP60 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010005>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum Cp23",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Cp23 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010006>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Crptosporidium parvum CpP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CpP2 protein that is part of Crptosporidium parvum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010842>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010007>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Eimeria acervulina 3-1E",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A 3-1E protein that is part of Eimeria acervulina"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010822>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010008>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Eimeria maxima gam56",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A gam56 protein that is part of Eimeria maxima"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010822>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010009>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Eimeria maxima gam82",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A gam82 protein that is part of Eimeria maxima"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010833>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010010>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Giardia  duodenalis a1-giardin",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A a1-giardin protein that is part of Giardia  duodenalis"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 5697168"
+
+
+    SubClassOf:
+        <VO_0010829>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010011>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Giardia  lamblia a1-giardin",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A a1-giardin protein that is part of Giardia  lamblia"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 5697168"
+
+
+    SubClassOf:
+        <VO_0015483>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010012>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Giardia  lamblia alpha-enolase",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A alpha-enolase protein that is part of Giardia  lamblia"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 2023"
+
+
+    SubClassOf:
+        <VO_0015483>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010013>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Giardia  lamblia CWP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CWP2 protein that is part of Giardia  lamblia"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 5703171"
+
+
+    SubClassOf:
+        <VO_0015483>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010014>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani Acen1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Acen1 protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010015>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani Beta-tubulin",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Beta-tubulin protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 13392307"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010016>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani FML",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A FML protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010017>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani Gp63",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Gp63 protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 13389283"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010018>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani HASPB1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A HASPB1 protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010019>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani KH",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A KH protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010020>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani LdyGCS",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A LdyGCS protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010021>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani NH36",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A NH36 protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010022>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  donovani P1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A P1 protein that is part of Leishmania  donovani"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 13388831"
+
+
+    SubClassOf:
+        <VO_0010832>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010023>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  infantum A2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A A2 protein that is part of Leishmania  infantum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 13387764"
+
+
+    SubClassOf:
+        <VO_0010836>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010024>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  infantum and Leishmania  major HSP70 II",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A HSP70 II protein that is part of Leishmania  infantum and Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 5073319"
+
+
+    SubClassOf:
+        <VO_0015478>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010025>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major KMP-11",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A KMP-11 protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 13387683"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010026>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major LmSTI1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A LmSTI1 protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010027>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major LIPO-A",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A LIPO-A protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010028>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major P36",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A P36 protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010029>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major PEPCK",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PEPCK protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 5649768"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010030>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania  major LeIF",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A LeIF protein that is part of Leishmania  major"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 12981542"
+
+
+    SubClassOf:
+        <VO_0010835>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010031>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum MIC3",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC3 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010032>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum GRA2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA2 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010033>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum GRA6",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA6 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010034>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum SRS2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SRS2 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010035>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum MIC10",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC10 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010036>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum p24",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A p24 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010037>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum PDI",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PDI protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010038>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum SAG1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SAG1 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010039>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Neospora caninum SRS2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SRS2 protein that is part of Neospora caninum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010828>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010040>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium berghei P36p",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A P36p protein that is part of Plasmodium berghei"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015475>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010041>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum ABRA",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ABRA protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010042>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum EBA-175 RII",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A EBA-175 RII protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010043>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Hsp90",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Hsp90 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010044>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum MSP1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MSP1 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010045>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum RESA",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A RESA protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010046>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum MSP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MSP2 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010047>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum MSP4",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MSP4 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010048>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pf ribosomal protein P0",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pf ribosomal protein P0 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010049>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum PfCelTOS",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PfCelTOS protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010050>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum PfSSP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PfSSP2 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010051>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum LSA1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A LSA1 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010052>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pfen",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pfen protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010053>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pfs230",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pfs230 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010054>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pfs25",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pfs25 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010055>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pfs48",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pfs48 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010056>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum RH5",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A RH5 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010057>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum TRAP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TRAP protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010058>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum Pfs45",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Pfs45 protein that is part of Plasmodium falciparum"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015471>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010059>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium knowlesi PkCSP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PkCSP protein that is part of Plasmodium knowlesi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015472>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010060>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium knowlesi PkSSP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PkSSP2 protein that is part of Plasmodium knowlesi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015472>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010061>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium knowlesi PkAMA1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PkAMA1 protein that is part of Plasmodium knowlesi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015472>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010062>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium knowlesi PkMSP1p42",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PkMSP1p42 protein that is part of Plasmodium knowlesi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015472>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010063>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium vivax PvCelTOS",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PvCelTOS protein that is part of Plasmodium vivax"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010064>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium vivax PvCS",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PvCS protein that is part of Plasmodium vivax"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010065>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium vivax PvDBPII",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PvDBPII protein that is part of Plasmodium vivax"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010066>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium vivax TRAP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TRAP protein that is part of Plasmodium vivax"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010067>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium yoelii HEP17",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A HEP17 protein that is part of Plasmodium yoelii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010068>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium yoelii HSP60",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A HSP60 protein that is part of Plasmodium yoelii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010069>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium yoelii SSP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SSP2 protein that is part of Plasmodium yoelii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0015473>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010070>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi ASP-1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ASP-1 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010071>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi CRP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CRP protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 947867"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010072>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi G1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A G1 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010073>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi PAR3",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PAR3 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 3540497"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010074>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi PFR Ag",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PFR Ag protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010075>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi rTcENO from H8",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A rTcENO from H8 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010076>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi Tc24",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Tc24 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010077>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi Tc80",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Tc80 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010078>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TcENO",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TcENO protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010079>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TcSSP4",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TcSSP4 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010080>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TcTASV-C",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TcTASV-C protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010081>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TCTS-154",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TCTS-154 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010082>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi Trans-salidase",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Trans-salidase protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 3537653"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010083>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TSA-1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TSA-1 protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 3544076"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010084>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TsF",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TsF protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "NCBI Gene ID 3537653"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010085>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi TSSA",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TSSA protein that is part of Trypanosoma cruzi"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010838>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010086>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii CDPK1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CDPK1 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010087>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii CDPK6",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CDPK6 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010088>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP18",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP18 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010089>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii CST2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CST2 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010090>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii CyP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CyP protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010091>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii CyP",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A CyP protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010092>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA1 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010093>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA16",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA16 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010094>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA17",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA17 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010095>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA24",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA24 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010096>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA23",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA23 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010097>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA25",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA25 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010098>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA41",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA41 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010099>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA6",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA6 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010100>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA7",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA7 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010101>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii GRA8",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A GRA8 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010102>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii hsp70",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A hsp70 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010103>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ISP3",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ISP3 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010104>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC1 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010105>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC11",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC11 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010106>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC13",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC13 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010107>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC4",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC4 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010108>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC6",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC6 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010109>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii MIC8",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A MIC8 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010110>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii PGAM2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PGAM2 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010111>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii RACK1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A RACK1 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010112>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP16",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP16 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010113>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP17",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP17 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010114>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP18",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP18 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010115>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii PLP1",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A PLP1 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010116>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP38",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP38 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010117>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP8",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP8 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010118>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP8",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP8 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010119>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii ROP2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A ROP2 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010120>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii SAG2",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SAG2 protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010121>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii SAG5B",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SAG5B protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010122>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii SAG5C",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A SAG5C protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010123>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii TgADF",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TgADF protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010124>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii TgNTPase-II",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TgNTPase-II protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0010125>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Toxoplasma gondii TgPF",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A TgPF protein that is part of Toxoplasma gondii"
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <VO_0010826>,
+
+<http://purl.obolibrary.org/obo/RO_0000087> some <http://purl.obolibrary.org/obo/VO_0000457>
+
