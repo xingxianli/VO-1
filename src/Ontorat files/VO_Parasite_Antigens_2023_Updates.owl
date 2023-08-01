@@ -1,0 +1,2412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/VO_Antigens.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000457"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Cp12 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum Cp12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Cp21 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum Cp21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Cp15 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum Cp15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CP60 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum CP60</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Cp23 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum Cp23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CpP2 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Crptosporidium parvum CpP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010822"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A 3-1E protein that is part of Eimeria acervulina</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Eimeria acervulina 3-1E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010822"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gam56 protein that is part of Eimeria maxima</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Eimeria maxima gam56</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010833"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gam82 protein that is part of Eimeria maxima</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Eimeria maxima gam82</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010829"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A a1-giardin protein that is part of Giardia  duodenalis</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Giardia  duodenalis a1-giardin</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 5697168</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A a1-giardin protein that is part of Giardia  lamblia</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Giardia  lamblia a1-giardin</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 5697168</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A alpha-enolase protein that is part of Giardia  lamblia</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Giardia  lamblia alpha-enolase</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 2023</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CWP2 protein that is part of Giardia  lamblia</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Giardia  lamblia CWP2</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 5703171</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Acen1 protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani Acen1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Beta-tubulin protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani Beta-tubulin</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 13392307</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A FML protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani FML</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Gp63 protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani Gp63</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 13389283</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A HASPB1 protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani HASPB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A KH protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani KH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A LdyGCS protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani LdyGCS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A NH36 protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani NH36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010832"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A P1 protein that is part of Leishmania  donovani</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  donovani P1</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 13388831</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A A2 protein that is part of Leishmania  infantum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  infantum A2</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 13387764</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015478"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A HSP70 II protein that is part of Leishmania  infantum and Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  infantum and Leishmania  major HSP70 II</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 5073319</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A KMP-11 protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major KMP-11</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 13387683</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A LmSTI1 protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major LmSTI1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A LIPO-A protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major LIPO-A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A P36 protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major P36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PEPCK protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major PEPCK</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 5649768</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010835"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A LeIF protein that is part of Leishmania  major</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Leishmania  major LeIF</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 12981542</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC3 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum MIC3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA2 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum GRA2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA6 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum GRA6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SRS2 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum SRS2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC10 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum MIC10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A p24 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum p24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PDI protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum PDI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SAG1 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum SAG1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010828"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SRS2 protein that is part of Neospora caninum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Neospora caninum SRS2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015475"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A P36p protein that is part of Plasmodium berghei</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium berghei P36p</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ABRA protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum ABRA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A EBA-175 RII protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum EBA-175 RII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Hsp90 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Hsp90</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MSP1 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum MSP1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A RESA protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum RESA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MSP2 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum MSP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MSP4 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum MSP4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pf ribosomal protein P0 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pf ribosomal protein P0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PfCelTOS protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum PfCelTOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PfSSP2 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum PfSSP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A LSA1 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum LSA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pfen protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pfen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pfs230 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pfs230</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pfs25 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pfs25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pfs48 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pfs48</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A RH5 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum RH5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TRAP protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum TRAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Pfs45 protein that is part of Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium falciparum Pfs45</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015472"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PkCSP protein that is part of Plasmodium knowlesi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium knowlesi PkCSP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015472"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PkSSP2 protein that is part of Plasmodium knowlesi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium knowlesi PkSSP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015472"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PkAMA1 protein that is part of Plasmodium knowlesi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium knowlesi PkAMA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015472"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PkMSP1p42 protein that is part of Plasmodium knowlesi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium knowlesi PkMSP1p42</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PvCelTOS protein that is part of Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium vivax PvCelTOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PvCS protein that is part of Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium vivax PvCS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PvDBPII protein that is part of Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium vivax PvDBPII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TRAP protein that is part of Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium vivax TRAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A HEP17 protein that is part of Plasmodium yoelii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium yoelii HEP17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A HSP60 protein that is part of Plasmodium yoelii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium yoelii HSP60</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015473"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SSP2 protein that is part of Plasmodium yoelii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Plasmodium yoelii SSP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ASP-1 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi ASP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CRP protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi CRP</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 947867</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A G1 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi G1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PAR3 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi PAR3</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 3540497</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PFR Ag protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi PFR Ag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A rTcENO from H8 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi rTcENO from H8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Tc24 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi Tc24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Tc80 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi Tc80</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TcENO protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TcENO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TcSSP4 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TcSSP4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TcTASV-C protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TcTASV-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TCTS-154 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TCTS-154</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Trans-salidase protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi Trans-salidase</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 3537653</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TSA-1 protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TSA-1</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 3544076</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TsF protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TsF</rdfs:label>
+        <rdfs:seeAlso>NCBI Gene ID 3537653</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TSSA protein that is part of Trypanosoma cruzi</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Trypanosoma cruzi TSSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CDPK1 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii CDPK1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CDPK6 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii CDPK6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP18 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CST2 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii CST2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CyP protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii CyP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A CyP protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii CyP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA1 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA16 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA17 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA24 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA23 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA25 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA41 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA41</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA6 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA7 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A GRA8 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii GRA8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hsp70 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii hsp70</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ISP3 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ISP3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC1 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC11 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC13 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC4 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC6 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A MIC8 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii MIC8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PGAM2 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii PGAM2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A RACK1 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii RACK1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP16 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP17 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP18 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A PLP1 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii PLP1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP38 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP38</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP8 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP8 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ROP2 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii ROP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SAG2 protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii SAG2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SAG5B protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii SAG5B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SAG5C protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii SAG5C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TgADF protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii TgADF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TgNTPase-II protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii TgNTPase-II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A TgPF protein that is part of Toxoplasma gondii</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>Toxoplasma gondii TgPF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010822"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010826"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010828"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010829"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010832"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010833"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010835"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010836"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010838"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010842"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015471"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015472"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015473"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015475"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015478"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015483"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
