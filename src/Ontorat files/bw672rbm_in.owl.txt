@@ -1,0 +1,3073 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+Ontology: <http://purl.obolibrary.org/obo/ontorat_0000001.owl>
+
+Datatype: rdf:PlainLiteral
+Datatype: xsd:string
+Datatype: xsd:nonNegativeInteger
+Datatype: xsd:float
+Datatype: rdfs:Literal
+Datatype: xsd:integer
+
+ObjectProperty: <http://purl.obolibrary.org/obo/OBI_0000304>
+ObjectProperty: <http://purl.obolibrary.org/obo/bearer_of>
+ObjectProperty: <http://purl.obolibrary.org/obo/VO_0001243>
+ObjectProperty: <http://purl.obolibrary.org/obo/VO_0003355>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#label>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#comment>
+AnnotationProperty: <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000111>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000112>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000114>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000116>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000117>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000118>
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000119>
+
+Class: <http://purl.obolibrary.org/obo/VO_0005490>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Trypanosoma cruzi DNA prime/Protein-boost vaccine encoding TcG2 and TcG4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6056",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0000623>
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000116>
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005491>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA prime/rTc80 + ODN-CpG boost vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6070",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005492>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding PFR Ag + IL-12",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6089",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005493>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding PFR2 fused with HSP70",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6088",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005494>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding TcSSP4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6085",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005495>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding TcTASV-C",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6081",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005496>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding trans-sialidase",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6080",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005497>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding TSA-1 and Tc24",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3886",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005498>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine encoding TSSA",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6079",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005499>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine pTS encoding T. cruzi antigens",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3561",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005500>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA vaccine pUB-ASP-2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3560",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005501>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi DNA-prime/MVA-boost vaccine encoding TcG2 and TcG4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6048",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA-prime/boost that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005502>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi Tc24 vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6010",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0000624>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005503>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi Tsf-ISPA vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6005",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005504>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi prime-boost vaccine encoding ASP2 with Rapamycin administration",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6053",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA-prime/boost that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005505>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi vaccine encoding pBKTcENO",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6057",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005506>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi vaccine encoding recombinant enolase from H8 strain",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6054",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0000636>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005507>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi vaccine encoding Tc80",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6064",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005508>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi vaccine encoding TcG2 and TcG4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6028",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005509>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi Vaccine TcVac2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6032",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005510>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi Vaccine TcVac3 encoding TcG2 and TcG4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6031",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005511>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi Vaccine TcVac4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6029",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA-prime/boost that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005512>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. cruzi vector vaccine encoding Tc80",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6067",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets trypomastigotes OPL_0000116",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000116>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005513>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. amazonenisis CP Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1110",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets amastigotes OPL_0000342",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000342>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000342>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005514>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani Beta-tubulin Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1031",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000344>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005515>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani GRP-78 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1029",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005516>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani HASPB1 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1028",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets amastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005517>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani Hsp70 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1109",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005518>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani LD31 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1030",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005519>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. donovani Recombinant LdγGCS in NIV system Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3070",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets amastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005520>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Leishmania vaccine using recombinant L. tarentolae strain expressing A2 antigen",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1032",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005521>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "pVAX-P1 DNA vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3106",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000344",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000344>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005522>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "SL3261-L. donovani",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4154",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000160>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005523>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "A2-CPA-CPB(-CTE)-recombinant L. tarentolae",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4096",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets promastigotes OPL_0000345",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000345>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000345>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005524>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. infantum SMT Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1108",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000345",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000345>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005525>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "pcDNA3-LiP0",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1106",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000345",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000345>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005526>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "VVr expressing L. infantum P36/LACK",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1107",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets promastigotes OPL_0000345",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000345>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005527>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major DNA Vaccine encoding Gp63",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1013",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005528>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major DNA Vaccine encoding LACKp24, TSA, LmSTI1 and CPa",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1000",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005529>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major DNA Vaccine encoding SP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1001",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005530>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major DNA vaccine encoding TSA, LMSTI1, KMP11, and LACK",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5976",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005531>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major DNA vaccine pcLACK + IL-22",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3884",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005532>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major H1 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1011",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005533>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major H2B Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1009",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005534>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major PSA-2 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1006",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005535>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. major synthetic DNA vaccine IDM2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5967",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005536>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "L. T -PpSP15",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4095",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005537>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "LEISH-F1+MPL-SE",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5966",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets promastigotes OPL_0000160",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000160>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005538>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "C. parvum DNA vaccine encoding CpP2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6003",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) NCBITaxon_5807",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5807>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_5807>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005539>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Cp15-23",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6016",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets oocyst–sporozoite NCBITaxon_5807",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5807>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005540>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "pVAX-15-23",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6012",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets oocyst–sporozoite NCBITaxon_5807",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5807>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005541>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "pVAX1-C-Cp12-Cp21",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6009",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets oocyst–sporozoite NCBITaxon_5807",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5807>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005542>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "E. acervulina DNA vaccine 3-1E",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3681",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets merozoites NCBITaxon_5807",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5807>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9031>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9031>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005543>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "E. maxima DNA vaccine pcDNA-Gam56",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3881",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets gametocyte OPL_0000333",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000333>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9031>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000333>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005544>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "E. maxima oocysts with Arlacel A vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3056",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Live, attenuated vaccine that targets oocysts OPL_0000335",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0001125>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000335>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9031>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0001125>
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000335>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005545>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "N. caninum DNA vaccine encoding NcSAG1 and NcSRS2, combined with recombinant NcSAG1 and NcSRS2 Proteins",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "935",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000332",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000332>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000332>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005546>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "N. caninum MIC10 and p24 protein vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "946",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000332",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000332>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10047>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10047>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005547>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "N. caninum NcDG1 protein vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "944",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets (all stages) NCBITaxon_29176",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_29176>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10047>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_29176>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005548>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "N. caninum NcPDI Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "937",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000332",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000332>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005549>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "N. caninum Killed Protozoa Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1975",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Inactivated or \"killed\" vaccine that targets protozoa NCBITaxon_29176",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0001065>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_29176>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0001065>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005550>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "RB51--MIC3/GRA6/MIC1/SRS2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4121",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets (all stages) NCBITaxon_29176",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_29176>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9612>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9612>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005551>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "RB51-SRS2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4120",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets tachyzoites OPL_0000332",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000332>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005552>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "NYVAC-CSP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4313",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000330",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000330>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000330>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005553>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. berghei DNA vaccine CSP-3p28",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3952",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets sporozoite OPL_0000330",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000330>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005554>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. berghei DNA vaccine encoding PbCSP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3949",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets sporozoite OPL_0000330",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000330>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005555>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. berghei MSP1 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1105",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000331",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000331>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000331>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005556>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. berghei CS Protein Subunit Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "931",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets sporozoite OPL_0000330",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000330>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005557>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. berghei p36p mutant vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3196",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Live, attenuated vaccine that targets sporozoite OPL_0000330",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0002513>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000330>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0002513>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005558>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. chabaudi AMA1 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1102",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000137>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005559>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "AMA1-C1Alhydrogel",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5981",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005560>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "AMA1-C1Alhydrogel + CPG 7909",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5980",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005561>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "BDES-PfCSP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4314",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005562>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 ME-TRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5946",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005563>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA ME-TRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5946",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005564>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 AMA1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5948",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000130>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005565>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA AMA1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5948",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005566>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 MSP1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5960",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005567>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA MSP1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5960",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005568>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 RH5",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5982",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005569>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA RH5",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5982",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005570>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "FMP012/AS01B",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5947",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets ookinetes and sporozoites OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005571>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MSP3-CRM-Vac4All/ Alhydrogel®",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5957",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005572>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "NYVAC-Pf7",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4306",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite, sporozoite, mosquito and liver-stage, merozoite, trophozoite and schizont, merozoite, zygote and ookinete OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005573>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium falciparum CS expressed in irradiated P. berghei as Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1103",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005574>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. falciparum DNA Vaccine encoding EBA-175",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1104",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9479>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9479>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005575>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. falciparum LSA-3 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1096",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets mosquito and liver-stage OPL_0000161",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000161>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9598>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000161>
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9598>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005576>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. falciparum MSA-2 subunit vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3103",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9940>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9940>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005577>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. falciparum MSP4 with AFCo1 Adjuvant",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3072",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000130",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000130>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005578>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. falciparum pfCelTos protein vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1121",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets ookinetes and sporozoites OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005579>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "FP9 ME-TRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3628",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005580>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA ME-TRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3628",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005581>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "PfP0 P-BSA",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5992",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets OPL_000033 NCBITaxon_5820",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5820>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606> and <http://purl.obolibrary.org/obo/NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_5820>
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_10090>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005582>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Pfs230D1-EPA/Matrix-M",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5953",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets gametocyte OPL_0000249",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000249>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000249>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005583>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Pfs25-IMX313/Matrix-M",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5951",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Protein-nanoparticle vaccine that targets zygotes and ookinetes OPL_0000285",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000285>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000285>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005584>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Pfs48/45 in Matrix-M",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5978",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets gametocyte OPL_0000249",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000249>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005585>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "RTS,S/AS01",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5945",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005586>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "SAd-ME.TRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4312",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000137",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000137>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005587>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. knowlesi DNA vaccine encoding PkCSP, PkSSP2, PkAMA1, and PkMSP1p42",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3953",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) NCBITaxon_5820",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/NCBITaxon_5820>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9479>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005588>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Ad PvCelTOS",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6100",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets ookinetes and sporozoites OPL_0000274",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000274>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000274>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005589>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA PvCelTOS",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6100",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets ookinetes and sporozoites OPL_0000274",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000274>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005590>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Ad-protein PvCelTOS",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5955",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets ookinetes and sporozoites OPL_0000274",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000274>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005591>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "VLPs PvCelTOS",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6101",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets ookinetes and sporozoites OPL_0000274",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000274>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005592>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 -PvTRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4310",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets pre-erythrocyte OPL_0000284",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000284>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000284>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005593>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ChAd63 PvDBP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5986",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000270",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000270>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000270>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005594>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA PvDBP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5986",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000270",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000270>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005595>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "MVA-PvTRAP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4309",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets pre-erythrocyte OPL_0000284",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000284>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005596>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "PvCS/Montanide ISA-51",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5961",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000278>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005597>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "PvDBPII/Matrix-M1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5973",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000270",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000270>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9479>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005598>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Pvs25-IMX313/Matrix-M1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "5987",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets gametocyte (post-fertilization) OPL_0000268",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000268>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000268>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005599>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "NILV-Py CSP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4311",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005600>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "Plasmodium yoelii DNA vaccine encoding MSP1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3951",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets merozoite OPL_0000270",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000270>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005601>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. yoelii DNA vaccine encoding PyHEP17 Protein",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "927",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005602>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. yoelii DNA vaccine encoding PySSP2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3948",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005603>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. yoelii DNA vaccine pDIP/PyCSP. 1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3947",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005604>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. yoelii DNA vaccine pPyHsp60-VR1012",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3950",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets all stages OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005605>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "P. yoelii TyCS-VLP Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3105",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets sporozoite OPL_0000278",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000278>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005606>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rBCGMSP1-15",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4301",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets merozoite OPL_0000270",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000270>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005607>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "S. neurona SAG1 Protein Vaccine",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "835",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoites OPL_0000336",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000336>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9796>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000336>
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9796>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005608>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. annulata Tams1 Protein Vaccin",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "1055",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets merozoite OPL_0000336",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000336>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9913>,
+
+
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9913>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005609>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "CAV-2-ROP16",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6030",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000338>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005610>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "CAV-2-ROP18",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6027",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005611>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "GRA7(20–28)SAPN",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6066",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A VLP vaccine that targets all stages OPL_000033",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0004913>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_000033>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0004913>
+
+Class: <http://purl.obolibrary.org/obo/OPL_000033>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005612>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ISP3 VLP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6068",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A VLP vaccine that targets oocysts OPL_0000340",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0004913>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000340>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+Class: <http://purl.obolibrary.org/obo/OPL_0000340>
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005613>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pEGFP-C1/GRA41",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6019",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets all stages OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005614>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "PLG-rROP38-rROP18",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6049",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005615>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rBCGpMV361-TgCyP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "4130",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005616>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rCDPK6 + rROP18 + PLG",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6062",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets (all stages), tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005617>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rTgADF",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6059",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005618>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "ISA 201-rTgCST2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6018",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005619>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rTgPGAM 2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6052",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005620>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rTgRACK1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6060",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005621>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "rTgROP17",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6050",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005622>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pcDNA3.1-HisGRA6",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6102",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005623>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine encoding MIC8",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3038",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005624>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pcDNA3.1/MIC11",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6092",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005625>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine encoding multi-epitope ROP8",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6024",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005626>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pcDNA3.1-SAG1-ROP2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3343",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005627>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pDsRed2-GRA8",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6103",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005628>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pIRESneo/MIC6/PLP1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6045",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005629>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pIRESneo/ROP18/PLP1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6044",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005630>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pMIC3i encoding the complete MIC3-ORF (RH(ERP) strain)",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3754",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005631>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pSAG1-ROP2-SAG2",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3342",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005632>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pSAG5B/SAG5C",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6021",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005633>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-CDPK1 with pVAX-IL21-IL15",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6038",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005634>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-CDPK1 with pVAX-IL7-IL15",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6041",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005635>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-GRA16",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6104",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005636>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-GRA24 + pVAX-GRA25 + pVAX-MIC6",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6094",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages), (all stages), tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005637>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-ROP38",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6026",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005638>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-TgGRA17",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6106",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005639>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-TgGRA17 + pVAX-TgGRA23",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6105",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005640>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-TgGRA23",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6107",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005641>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVAX-TgMIC13",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3882",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005642>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVitro-SAG1-GRA7",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6093",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites, (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005643>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pVR1020-GRA1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3755",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005644>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine ROP8-pVAX-1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3885",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005645>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine T.g.HSP70",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3756",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005646>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii recombinant vaccine vector rBCGpMV361-TgCyP",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "3962",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Recombinant vector vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000636>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005647>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "T. gondii DNA vaccine pDREP-TgNTPase-II",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6043",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A DNA vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000623>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005648>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgMIC1",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6097",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_10090>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005649>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgMIC1-4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6096",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005650>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgMIC1-4-6",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6095",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005651>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgMIC4",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6098",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005652>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgMIC6",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6099",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets tachyzoites OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
+
+Class: <http://purl.obolibrary.org/obo/VO_0005653>
+	
+    Annotations:
+        <http://www.w3.org/2000/01/rdf-schema#label> "TgPF-OML",
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> "6058",
+<http://purl.obolibrary.org/obo/IAO_0000115> "A Subunit vaccine that targets (all stages) OPL_0000338",
+<http://purl.obolibrary.org/obo/IAO_0000117> "Anthony Huffman"
+
+
+    SubClassOf:
+        <http://purl.obolibrary.org/obo/VO_0000624>,
+
+<http://purl.obolibrary.org/obo/VO_0003355> some <http://purl.obolibrary.org/obo/OPL_0000338>,
+
+<http://purl.obolibrary.org/obo/VO_0001243> some <http://purl.obolibrary.org/obo/NCBITaxon_NCBITaxon_9606>,
+
+
